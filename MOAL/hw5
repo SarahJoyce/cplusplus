@@ -1,0 +1,11 @@
+ #include <stdio.h>
+
+main(){
+	float x=12.1234;
+	float y= 12.1111;
+	float z1 = x*x - y*y;
+	float z2 = (x+y)*(x-y);
+	printf("z1 = %f\n", z1);
+	printf("z2 = %f\n", z2);
+	exit(0);
+}
